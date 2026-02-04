@@ -28,7 +28,7 @@ export default function About() {
         {/* Description */}
         <div className="w-full md:w-1/2 text-gray-300 space-y-6">
           <p className="leading-relaxed">
-            I’m a skilled and professional web developer with 3+ years of
+            I’m a skilled and professional web developer with 4 years of
             experience in the Laravel Framework, where I’ve developed robust
             backend systems, RESTful APIs, and integrated third-party services.
             In addition to backend development, I’ve also worked with modern

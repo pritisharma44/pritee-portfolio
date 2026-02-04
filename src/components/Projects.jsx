@@ -7,6 +7,11 @@ import nimeyaAdmin from "../assets/nimeya_admin.png";
 import prominenceWebsite from "../assets/prominence_website.png";
 import gisAdmin from "../assets/gis_admin.png";
 import prominenceAdmin from "../assets/prominence_admin.png";
+import samarthWebsite from "../assets/samarth_skill_web.png";
+import samarthAdmin from "../assets/samarth_admin.png";
+import lovpipoAdmin from "../assets/lovpipo_admin.png";
+import setsumAdmin from "../assets/setsum_admin.png";
+import voucherAdmin from "../assets/voucher_admin.png";
 
 const categories = ["All", "Website", "Admin Panel"];
 
@@ -66,6 +71,41 @@ const projects = [
     image: prominenceAdmin,
     description: "Admin dashboard for manage users,vehicles and other relevent details.",
     link: "https://prominencesingapore.com/",
+  },
+  {
+    name: "Samarth Medical Skill Lab",
+    category: "Website",
+    image: samarthWebsite,
+    description: "At Samarth Skills Lab, we are committed to transforming healthcare education by providing high-quality, NMC-compliant medical training equipment.",
+    link: "https://samarthmedlab.com/",
+  },
+   {
+    name: "Samarth Medical Skill Lab Admin",
+    category: "Admin Panel",
+    image: samarthAdmin,
+    description: "Admin dashboard for manage categories, departments,products and other relevent details.",
+    link: "https://samarthmedlab.com/admin",
+  },
+  {
+    name: "Lovpipo Admin",
+    category: "Admin Panel",
+    image: lovpipoAdmin,
+    description: "Admin dashboard for manage users, subscription, forem, marketing and other relevent details.",
+    link: "https://admin.lovpipo.io",
+  },
+  {
+    name: "SetSum Admin",
+    category: "Admin Panel",
+    image: setsumAdmin,
+    description: "Admin dashboard for manage users, subscription, walkthrough, earning graphs, export earning summary and other relevent details.",
+    link: "https://admin.setsum.co.uk/",
+  },
+  {
+    name: "Voucher Admin",
+    category: "Admin Panel",
+    image: voucherAdmin,
+    description: "Admin dashboard for manage users, restaurant, universal vouchers, corporate vouchers, promotion, banners and other relevent details.",
+    link: "https://admin.atesplore.com/",
   },
 ];
 
