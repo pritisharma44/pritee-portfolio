@@ -1,12 +1,12 @@
 export default function Education() {
   const educationList = [
     {
-      degree: "Bachelor of Technology (IT)",
+      degree: "Bachelor of Technology (Information Technology)",
       institute: "Babu Sunder Singh Institute of Technology and Management",
       period: "2023 – 2026",
-      score: "71%", 
+      score: "76%",
       description:
-        "Pursuing Bachelor of Technology in Information Technology with a focus on web development, data structures, and programming languages like C, Java, and Python. Actively involved in hands-on projects and technical workshops to build real-world problem-solving skills.",
+        "Completed B.Tech in Information Technology with a focus on web development and software development.",
     },
     {
       degree: "Diploma in Information Technology",

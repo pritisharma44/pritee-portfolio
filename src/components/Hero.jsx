@@ -1,5 +1,5 @@
 import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import profileImage from "../assets/profile_image.jpg";
+import profileImage from "../assets/profile_image_1.png";
 import { Link } from "react-scroll";
 
 export default function Hero() {
@@ -75,7 +75,7 @@ export default function Hero() {
               Let's Connect
             </Link>
             <a
-              href="/pritee-portfolio/PriteeSharmaCV.pdf"
+              href="/pritee-portfolio/Pritee_Sharma_CV.pdf"
               download
               className="border border-gray-400 px-6 py-2 rounded-md font-medium hover:border-white hover:text-white"
             >
@@ -86,7 +86,7 @@ export default function Hero() {
           {/* Stats */}
           <div className="mt-8 grid grid-cols-3 divide-x divide-gray-600 text-center text-sm text-gray-300">
             <div className="px-2">
-              <span className="text-[#FF6B00] text-xl font-bold">3+</span>
+              <span className="text-[#FF6B00] text-xl font-bold">4 years</span>
               <p>Experiences</p>
             </div>
             <div className="px-2">

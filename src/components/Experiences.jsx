@@ -2,10 +2,10 @@ export default function Experience() {
   const experiences = [
     {
       company: "Singsys Software Services Pvt Ltd",
-      period: "Mar 2022 – Present",
+      period: "Mar 2022 – Feb 2026",
       description:
-        "Working as a Backend Developer using Laravel to build robust APIs and business logic, while also contributing to frontend development using React and Vue.js for building responsive and user-friendly interfaces.",
-    },    
+        "Worked as a Backend Developer using Laravel to develop robust APIs and business logic, while also contributing to frontend development with React.js and Vue.js.",
+    },   
     {
       company: "Softpro India Pvt Ltd",
       period: "Sep 2021 – Feb 2022",

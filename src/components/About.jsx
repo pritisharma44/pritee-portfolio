@@ -40,7 +40,7 @@ export default function About() {
             programming.
           </p>
           <a
-            href="/pritee-portfolio/PriteeSharmaCV.pdf"
+            href="/pritee-portfolio/Pritee_Sharma_CV.pdf"
             download
           >
             <button className="mt-4 flex items-center gap-2 bg-[#FF6B00] px-5 py-3 rounded-md text-white hover:bg-orange-600 transition">
