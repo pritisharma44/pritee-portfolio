@@ -12,10 +12,27 @@ import samarthAdmin from "../assets/samarth_admin.png";
 import lovpipoAdmin from "../assets/lovpipo_admin.png";
 import setsumAdmin from "../assets/setsum_admin.png";
 import voucherAdmin from "../assets/voucher_admin.png";
+import eictDashboard from "../assets/eict_dashboard_login.png";
+import eictAcademyWebsite from "../assets/eict_academy_website.png";
 
 const categories = ["All", "Website", "Admin Panel"];
 
 const projects = [
+  {
+    name: "E&ICT Academy, IIT Roorkee",
+    category: "Website",
+    image: eictAcademyWebsite,
+    description:
+      "E&ICT Academy website featuring its learning programs, facilities, and initiatives.",
+    link: "https://eict.iitr.ac.in/",
+  },
+  {
+    name: "EICT IIT Roorkee Dashboard",
+    category: "Admin Panel",
+    image: eictDashboard,
+    description: "Administrative dashboard for EICT at IIT Roorkee.",
+    link: "https://dashboard-eict.iitr.ac.in/",
+  },
   {
     name: "Shivam Yoga Website",
     category: "Website",

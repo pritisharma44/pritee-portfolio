@@ -5,9 +5,11 @@ export default function Footer() {
   return (
     <footer className="bg-[#1E1E1E] text-gray-400 py-10 text-center">
       {/* Logo */}
-      <h1 className="text-4xl font-pacifico text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400 drop-shadow-md">
-        PS
-      </h1>
+      <Link to="home" smooth={true} duration={500} className="mb-6 inline-block cursor-pointer">
+        <span className="text-3xl font-bold tracking-tight text-white">
+          Pritee<span className="text-orange-400">.</span>
+        </span>
+      </Link>
       {/* Navigation Links */}
       <nav className="flex justify-center flex-wrap gap-6 mb-6 text-sm">
         {["home", "skills", "about", "projects", "contact"].map((item, i) => (

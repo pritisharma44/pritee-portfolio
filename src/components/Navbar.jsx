@@ -8,13 +8,23 @@ export default function Navbar() {
   const menuItems = ["home", "skills", "about", "projects", "contact"];
 
   return (
-    <header className="bg-[#1E1E1E] text-white py-4 px-6 md:px-16 flex justify-between items-center shadow-md fixed top-0 left-0 right-0 z-50">
-      {/* Logo */}
-      <h1 className="text-4xl font-pacifico text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400 drop-shadow-md">
-        PS
-      </h1>
+    <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-white/5 bg-[#171717]/95 px-5 py-3 text-white shadow-lg shadow-black/10 backdrop-blur-md md:px-12 lg:px-16">
+      <Link
+        to="home"
+        smooth={true}
+        duration={500}
+        className="group flex cursor-pointer flex-col leading-none"
+        aria-label="Pritee Sharma, home"
+      >
+        <span className="font-sans text-[27px] font-bold tracking-[-0.06em] text-white transition group-hover:text-orange-100">
+          Pritee<span className="text-orange-400">.</span>
+        </span>
+        <span className="mt-1.5 text-[9px] font-medium uppercase tracking-[0.24em] text-gray-400">
+          Developer portfolio
+        </span>
+      </Link>
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex gap-8 text-sm">
+      <nav className="hidden items-center gap-8 text-sm md:flex">
         {menuItems.map((item, idx) => (
           <Link
             key={idx}
@@ -23,8 +33,8 @@ export default function Navbar() {
             smooth={true}
             offset={-70}
             duration={500}
-            activeClass="text-orange-500 font-medium"
-            className="cursor-pointer text-gray-400 hover:text-white"
+            activeClass="!text-orange-400"
+            className="cursor-pointer font-medium text-gray-400 transition-colors hover:text-white"
           >
             {item.charAt(0).toUpperCase() + item.slice(1)}
           </Link>
